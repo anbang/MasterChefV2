@@ -1,0 +1,22 @@
+{
+  "name": "MasterChefV2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile": "npx hardhat compile",
+    "node": "npx hardhat node",
+    "test": "npx hardhat test",
+    "coverage": "npx hardhat coverage",
+    "gas": "REPORT_GAS=true npx hardhat test",
+    "d": "npx hardhat run scripts/deploy.ts",
+    "d:l": "npx hardhat run scripts/deploy.ts --network localhost",
+    "d:fbchain": "npx hardhat run scripts/deploy.ts --network fbchain",
+    "d:okchain": "npx hardhat run scripts/deploy.ts --network okchain",
+    "remixd": "remixd -s  ./  --remix-ide http://remix.ethereum.org/"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.0",
+    "hardhat": "^2.12.2"
+  }
+}
