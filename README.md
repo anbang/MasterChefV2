@@ -1,13 +1,28 @@
-# Sample Hardhat Project
+# PancakeSwap: Main Staking Contract
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+Pancake Smart Contracts V2 版本 Farm 源码
 
-Try running some of the following tasks:
+在 bscscan 上认证的名字是 **PancakeSwap: Main Staking Contract**。
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.ts
-```
+- BscScan 地址: [0xa5f8C5Dbd5F286960b9d90548680aE5ebFf07652](https://bscscan.com/address/0xa5f8C5Dbd5F286960b9d90548680aE5ebFf07652#code)
+
+## Command Line
+
+- install :
+  - `npm i`
+- compile :
+  - `npm run compile`
+- test :
+  - `npm run test`
+- coverage :
+  - create :
+    - `npm run coverage`
+  - view full coverage testing :
+    - `npx http-server ./coverage/ -o`
+- view gas :
+  - `npm run gas`
+- depoly
+  - `npm run d:fbchain`
+  - `npm run d:okchain`
+
+All scripts is in `package.json` file.
